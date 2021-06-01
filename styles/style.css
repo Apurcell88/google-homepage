@@ -50,7 +50,7 @@ nav {
 }
 /* ------------------------------------------------------------ */
 
-/* main content*/
+/* main content */
 main {
     height: 70vh;
     display: flex;
@@ -65,9 +65,9 @@ main {
     justify-content: space-around;
 }
 
-#search-img {
+/* #search-img {
     width: 10vw;
-}
+} */
 
 #search-bar {
     margin: 20px;
@@ -81,3 +81,22 @@ main {
     display: flex;
     justify-content: center;
 }
+
+button {
+    margin: 0.8rem 0.5rem;
+    padding: 5px 15px;
+    text-transform: capitalize;
+    background-color: #f1f1f170;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 1px #c9c2c2 solid;
+}
+/* ---------------------------------------------- */
+
+/* footer */
