@@ -1,3 +1,4 @@
+
 /* general */
 :root {
     --width-50-perc: 50%;
@@ -51,9 +52,32 @@ nav {
 
 /* main content*/
 main {
-    height: 75vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#search-area {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+#search-img {
+    width: 10vw;
+}
+
+#search-bar {
+    margin: 20px;
+    width: 90vw;
+    height: 45px;
+    border-radius: 20px;
+    border-color: #e1e4e8;
+}
+
+#search-btns {
+    display: flex;
+    justify-content: center;
 }
