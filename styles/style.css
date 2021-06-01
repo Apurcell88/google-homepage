@@ -21,6 +21,12 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.page-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
 /* ---------------------------------------------------- */
 
 /* navigation */
@@ -100,3 +106,10 @@ button:hover {
 /* ---------------------------------------------- */
 
 /* footer */
+footer {
+    height: 16.5%;
+    background-color: #f1f1f1;
+    position: absolute;
+    bottom: 0px;
+    width: 100vw;
+}
