@@ -39,12 +39,12 @@ nav {
     display: flex;
 }
 
-#left-side-nav {
+.left-side {
     width: var(--width-50-perc);
     display: flex;
 }
 
-#right-side-nav {
+.right-side {
     width: var(--width-50-perc);
     display: flex;
     justify-content: end;
@@ -53,6 +53,10 @@ nav {
 .nav-link {
     margin: 20px;
     font-weight: 600;
+}
+
+#sign-in-btn {
+    padding: 0px 15px;
 }
 /* ------------------------------------------------------------ */
 
@@ -88,7 +92,7 @@ main {
     justify-content: center;
 }
 
-button {
+.search-btn {
     margin: 0.8rem 0.5rem;
     padding: 5px 15px;
     text-transform: capitalize;
@@ -99,7 +103,7 @@ button {
     font-weight: 600;
 }
 
-button:hover {
+.search-btn:hover {
     cursor: pointer;
     border: 1px #c9c2c2 solid;
 }
@@ -112,4 +116,13 @@ footer {
     position: absolute;
     bottom: 0px;
     width: 100vw;
+}
+
+#footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
 }
