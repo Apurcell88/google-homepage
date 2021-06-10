@@ -47,7 +47,7 @@ nav {
 .right-side {
     width: var(--width-50-perc);
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .nav-link {
@@ -56,7 +56,15 @@ nav {
 }
 
 #sign-in-btn {
-    padding: 0px 15px;
+    color: white;
+    background-color: #414ce4;
+    border: none;
+    border-radius: 5px;
+    align-self: center;
+    padding: 0.5rem 1rem;
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight: 600;
 }
 /* ------------------------------------------------------------ */
 
@@ -126,8 +134,6 @@ footer {
 }
 
 #footer-top {
-    /* height: 50%;
-    width: 100%; */
     text-align: center;
     font-size: 15px;
     margin-top: 3.5rem;
@@ -135,8 +141,6 @@ footer {
 }
 
 #footer-bot {
-    /* height: 50%;
-    width: 100%; */
     text-align: center;
     font-size: 15px;
     margin-top: 1rem;
@@ -146,4 +150,43 @@ footer {
     margin: 0 1rem;
     color: #363636;
     font-weight: 500;
+}
+/* ********************************************* */
+
+@media screen and (min-width: 580px) {
+    #search-bar {
+        width: 580px;
+    }
+
+    footer {
+        height: 5vh;
+    }
+
+    #footer-container {
+        flex-direction: row;
+        width: 100%;
+        /* align-items: flex-end;
+        justify-content: space-evenly */
+    }
+
+    #footer-top {
+        display: flex;
+        justify-content: flex-start;
+        width: 50%;
+        margin-top: 6px;
+        margin-left: 10px;
+    }
+
+    #footer-bot {
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+        font-size: 15px;
+        margin-top: 6px;
+        margin-right: 10px;
+    }
+
+    .footer-el {
+        /* align-self: flex-end; */
+    }
 }
